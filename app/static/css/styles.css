@@ -1,0 +1,72 @@
+/* Custom Cyber Range War Room Styles */
+
+/* Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #090d16;
+}
+::-webkit-scrollbar-thumb {
+  background: #1e293b;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #334155;
+}
+
+/* DAG Node Animation States */
+.dag-node.active {
+  border-color: #06b6d4 !important;
+  background-color: rgba(6, 182, 212, 0.12) !important;
+  box-shadow: 0 0 15px rgba(6, 182, 212, 0.35);
+  transform: translateY(-2px);
+}
+.dag-node.active .node-icon {
+  color: #22d3ee !important;
+  animation: pulse 1.5s infinite;
+}
+
+.dag-node.completed {
+  border-color: #10b981 !important;
+  background-color: rgba(16, 185, 129, 0.08) !important;
+}
+.dag-node.completed .node-icon {
+  color: #34d399 !important;
+}
+
+.dag-node.degraded {
+  border-color: #f59e0b !important;
+  background-color: rgba(245, 158, 11, 0.1) !important;
+}
+.dag-node.degraded .node-icon {
+  color: #fbbf24 !important;
+}
+
+/* Guardrail Card Interventions */
+.guardrail-card {
+  border-left: 3px solid #f43f5e;
+  background: rgba(244, 63, 94, 0.06);
+}
+
+.guardrail-card-pass {
+  border-left: 3px solid #10b981;
+  background: rgba(16, 185, 129, 0.04);
+}
+
+/* Terminal Log Animations */
+.log-turn-enter {
+  animation: slideIn 0.25s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

@@ -1,0 +1,40 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.class
+*.so
+
+# Caches
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+.coverage.*
+htmlcov/
+*.log
+
+# Environment & Secrets
+.env
+.env.*
+!.env.example
+.venv
+venv/
+ENV/
+env/
+
+# OS & IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Terraform local state & cache
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+
+# FastEmbed / Model weights cache
+.fastembed_cache/
