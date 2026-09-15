@@ -1,7 +1,35 @@
 # Autonomous Multi-Agent AI Research Platform
 ### Enterprise Security Perimeter • pgvector Semantic Caching • Redis Streams • PyRIT Red Teaming
 
+[![CI Pipeline](https://github.com/amanpratap1999/multi-agent-ai-research-platform/actions/workflows/ci.yml/badge.svg)](https://github.com/amanpratap1999/multi-agent-ai-research-platform/actions)
+![Python](https://img.shields.io/badge/Python-3.11-3776AB?logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-0.111-009688?logo=fastapi&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-Multi--Agent-FF6F00)
+![AWS Bedrock](https://img.shields.io/badge/AWS-Bedrock_Guardrails-232F3E?logo=amazon-aws&logoColor=white)
+![pgvector](https://img.shields.io/badge/PostgreSQL-pgvector-336791?logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-Streams_%2B_STM-DC382D?logo=redis&logoColor=white)
+![PyRIT](https://img.shields.io/badge/PyRIT-Red_Teaming-black)
+![License](https://img.shields.io/badge/License-MIT-green)
+
+> **Recruiter & Engineering Lead TL;DR:**
+> - **What it is:** Production-grade autonomous multi-agent research platform featuring a 4-agent LangGraph state machine (**Search → Summarize → Write → Verify**).
+> - **Core Engineering:** Dual-boundary AWS Bedrock Guardrails (Ingress prompt injection defense & Egress PII masking), HNSW-indexed pgvector semantic caching (<15ms hit latency), and lossless SSE telemetry over Redis Streams.
+> - **Production Readiness:** Integrated with Microsoft PyRIT adversarial red-teaming harness (Crescendo, Skeleton Key, XPIA mitigation) and an interactive split-screen Adversarial War Room operations dashboard. Includes zero-cloud local mock parity and containerized CI regression suite.
+> - **Live Dashboard:** [View Cockpit UI](#-adversarial-war-room-cockpit) • **Architecture:** [View Cloud Flowchart](#-production-aws-architecture) • **Quickstart:** [Local Evaluation](#3-quickstart-1-command-local-evaluation)
+
 A production-grade multi-agent autonomous research platform with a 4-agent LangGraph pipeline (**Search → Summarize → Write → Verify**), dual-boundary AWS Bedrock Guardrails, pgvector semantic caching (<15ms), Redis STM + Streams event telemetry, and a decoupled PyRIT adversarial stress-testing harness with an interactive split-screen Adversarial War Room dashboard.
+
+---
+
+## 🖥️ Adversarial War Room Cockpit
+
+![Adversarial War Room Operations Dashboard](assets/screenshots/dashboard.png)
+
+---
+
+## ☁️ Production AWS Architecture
+
+![Production AWS Multi-Agent Architecture Flowchart](assets/screenshots/architecture.png)
 
 ---
 
